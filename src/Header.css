@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    color: #e5e5e5;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__title {
+    font-size: 1.1rem;
+  }
+  
+  .header__nav {
+    display: flex;
+  }
+  
+  .header__link {
+    margin-left: 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914; /* Rouge Netflix */
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .header__link:hover {
+    background-color: #d40813; /* Rouge plus foncé pour l'effet de survol */
+  transform: scale(1.05); /* Légère augmentation de la taille au survol */
+  }
+  

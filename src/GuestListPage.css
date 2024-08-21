@@ -1,0 +1,65 @@
+/* GuestListPage.css */
+
+.guest-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px 60px; /* Adjusted padding for header and footer */
+  }
+  
+  .guest-list__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e50914; /* Rouge Netflix */
+  }
+  
+  .guest-list__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .guest-list__item {
+    background: #222;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column; /* Ensure the button and details are stacked vertically */
+  }
+  
+  .guest-list__header {
+    display: flex;
+    justify-content: space-between; /* Align name and button to the edges */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .guest-list__name {
+    font-weight: bold;
+    color: #e50914; /* Rouge Netflix */
+  }
+  
+  .guest-list__code {
+    color: #aaa;
+  }
+  
+  .guest-list__button {
+    background-color: #e50914; /* Rouge Netflix */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .guest-list__button:hover {
+    background-color: #d40813; /* Rouge plus foncé pour l'effet de survol */
+  }
+  
+  .guest-list__details {
+    background: #333;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
